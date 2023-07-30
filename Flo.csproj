@@ -1,0 +1,19 @@
+<Project>
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <TargetFrameworkMoniker>.NETFramework,Version=v4.8</TargetFrameworkMoniker>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="*.cs"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System.dll"/>
+  </ItemGroup>
+
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+
+</Project>
